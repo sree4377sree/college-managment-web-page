@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(242, 249, 251);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color:skyblue;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+nav{
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+nav ul li{
+    display: inline;
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+}
+main{
+    width: 1000px;
+    margin: auto;
+}
+section{
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
+.courses{
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 400px;
+    height:250px;
+    float: left;
+    box-sizing:border box;
+}
+#departments{
+    background-color: lightgreen;
+    border: 2px solid green;
+    padding: 20px;
+    width: 400px;
+    height:250px;
+    float: right;
+    box-sizing:border box;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th{
+    background-color: navy;
+    color: white;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+.contact{
+    border: 2px solid orange;
+    background-color: violet;
+    padding: 20px;
+    margin: 20px;
+    clear: both;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 70px;
+    padding: 20px;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+}
